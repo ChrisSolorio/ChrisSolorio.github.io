@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--Built this following online tutorial: https://www.youtube.com/watch?v=_xkSvufmjEs-->
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width,initial-scale = 1.0">
+        <title>Christian Solorio Personal Site</title>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" 
+        crossorigin="anonymous" />
+
+                <!-- Update these with your own fonts -->
+                <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" 
+                rel="stylesheet">
+
+        <link rel = "stylesheet" href = "css/style.css">
+
+
+    </head>
+    <body>
+        <header>
+            <div class = "logo">
+                
+            </div>
+            <button class= "nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class = "nav">
+                <ul class= "nav__list">
+                    <li class= "nav__item"><a href="#home" class = "nav__link">Home</a></li>
+                    <li class= "nav__item"><a href="#skills" class = "nav__link">My Skills</a></li>
+                    <li class= "nav__item"><a href="#projects" class = "nav__link">My Projects</a></li>
+                    <li class= "nav__item"><a href="#about" class = "nav__link">About me</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <!-- Introduction -->
+        <section class = "intro" id = "home">
+            <h1 class = "section__title section__title--intro">
+                Hi! My name is <strong>Christian Solorio</strong> and welcome to my site!
+            </h1>
+            <p class = "section__subtitle section__subtitle--intro">Software Engineer</p>
+            <img src = "images/chris.jpg" alt = "me picture!" class = "intro__img">
+
+        </section>
+        <p class = "section__subtitle--projects"><a href="https://github.com/ChrisSolorio" >Check out my Github for some of my public projects</a></p>
+        <!--Skills -->
+        <section class= "my-skills" id = "skills">
+            <h2 class="section__title section__title--skills">
+                My skills
+            </h2>
+            <div class= "skills">
+            <div class = "skill">
+                <h3>Front-End Development</h3>
+                <p>I have Experience with Front-End development mainly using React.js but also some experience with Asp.Net. 
+                    I'm proficient with languages such as JavaScript, HTML, CSS, and have some experience with C# and Java.</p>
+            </div>
+
+            <div class = "skill">
+                <h3>Back-End Development</h3>
+                <p>I have Experience with Back-End development using Node.js to communicate with the front-end and transfer data. 
+                    This includes implementing RESTful API's and implementing postgres SQL to transfer and store data.</p>
+            </div>
+
+            <div class = "skill">
+                <h3>Data Analysis</h3>
+                <p>I have Experience analyzying data using machine learning concepts to gather insights from datasets. 
+                    My data analysis projects are mainly written in Python using libraries such as NumPy, Pandas, Matplotlib, among others</p>
+            </div>
+
+            <div class = "skill">
+                <h3>Other Skills</h3>
+                <p>Besides my listed skills, I am a strong C++ programmer and have experience with other 
+                    technologies including Android, Unity, Visual Studio, embedded systems and others. For any inquiries feel free to contact me.</p>
+            </div>
+        </div>
+        <a href="#projects" class="btn">My Projects</a>
+        </section>
+
+        <!--My work-->
+        <section class= "my-projects" id= "projects">
+            <h2 class= "section__title section__title--projects">My Projects</h2>
+            <div class = "projects">
+            <div class = "project">
+                <h3>A Million Thanks Charity Project</h3>
+                <p>Worked in a team of four to successfully create a web app for a charity that would read text from images, parse the 
+                    data, and upload it into a database. My job duties included front end with react and back end with python.</p>
+            </div>
+            <div class = "project">
+                <h3>Cinema project</h3>
+                <p>Web application using React.js and Node.js to store data into a Postgres SQL database where users can input movies,
+                     rate them and later access a web page to see the movie information they inputted into the database</p>
+            </div>
+            <div class = "project">
+                <h3>NBA Social Media Impact</h3>
+                <p>Data analysis project using Python where I scraped basketball player statistics from online sources & Twitter data to 
+                    analyze which player statistics best correlate with social media presence.</p>
+            </div>
+            <div class = "project">
+                <h3>Piano Hero</h3>
+                <p>Created an embedded systems project using C and components such as 
+                    ATmega1284, shift registers, speaker, LED Matrixes, etc. to create 
+                    a piano game on a breadboard. <a href="https://github.com/ChrisSolorio">
+                        Check out my github code</a> or <a href="https://github.com/ChrisSolorio">
+                            Check out my Youtube demo</a></p>
+            </div>
+        </div>
+        <a href="#about" class="btn">About me</a>
+
+        </section>
+
+        <!--about -->
+        <section class = "about-me" id = "about">
+            <h2 class= "section__title section__title--about">About me</h2>
+            <!-- <p class = "section__subtitle section__subtitle--about">
+
+            </p> -->
+            <div class = "about-me__body">
+                <p>My name is Christian Solorio, I graduated from the University of California, Riverside on March 20, 2020 with a Bachelor's of 
+                    Science in Computer Science. I'm experienced using multiple languages and technologies but the ones I'm strongest with include 
+                    C++, JavaScript, and Python as well as the technologies React.js, Node.js, and Postgres SQL. Besides this I have experience 
+                    working with C#, Java, Android, Linux, embedded systems,  among others. I have a variety of skills and I'm costantly
+                seeking to improve myself. There is always something new and exciting to learn.  </p>
+                <p>I have a deep love for data analysis as well as databases. Data is my passion and wheter it be storing, accessing, or using 
+                    machine learning to study datasets I simply love working with data. Besides this I have a growing passion for Fullstack 
+                    development, front-end development is an artform and paired up with the intricacies of Back-End leaves you with incredibly
+                     fun problems. To talk about myself, I love the outdoors and have a deep passion for music. The pictures I used in this
+                    webpage where taken during a trip to Mexico. I love the beach and Mexico is full of amazing places that show the beauty in life.</p>
+            </div>
+            <!--
+            <img src="images/chris_beach.jpg" alt = "Me at La Jolla" class = "about-me__img">
+            -->
+            <img src="images/chris_beach.jpg" alt = "Me at La Jolla" class = "about-me__img" style="width:300px; height:auto;">
+            
+
+
+
+        </section>
+
+        <footer class = "footer">
+            <a href="mailto:askmeforthis@ask.com" class="footer__link">To contact me add me on linkedin and ask for my email</a>
+            <ul class = "social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/christian-solorio-c004/">
+                    <i class="fab fa-linkedin"></i>
+                </a></li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/ChrisSolorio">
+                    <i class="fab fa-github"></i>
+                </a></li>
+            </ul>
+        </footer>
+
+
+        <script src = "js/index.js"></script>
+    </body>
+</html>
